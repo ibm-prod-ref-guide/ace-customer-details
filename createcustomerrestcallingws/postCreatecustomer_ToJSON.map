@@ -18,11 +18,11 @@
         </move>
         <move>
             <input path="$MessageAssembly1/customerDetailsResponse/status"/>
-            <output path="$MessageAssembly2/JSON/spath('Data',2)/customerId"/>
+            <output path="$MessageAssembly2/JSON/spath('Data',2)/status"/>
         </move>
         <move>
             <input path="$MessageAssembly1/customerDetailsResponse/customer_id"/>
-            <output path="$MessageAssembly2/JSON/spath('Data',2)/status"/>
+            <output path="$MessageAssembly2/JSON/spath('Data',2)/customer_id"/>
         </move>
     </mappingDeclaration>
 </mappingRoot>
